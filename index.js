@@ -135,10 +135,13 @@ console.log(schuyler.play())
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding: If no rules apply "this" defaults to the window. And will return 'undefined'
+
+  2. Implicit Binding: only applies to objects with methods. when function is invoked, left of the dot is what 'this refers to.
+
+  3. Explicit Binding: explicitly pass in what we want ' this to refer to, by using .call .apply or .bind
+
+  4. New Binding: "this" points to the new function being invoked
 */
 
 
